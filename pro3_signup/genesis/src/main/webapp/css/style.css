@@ -1,0 +1,51 @@
+@import url(./reset.css);
+
+#wrap{width: 100%;}
+#wrap #header{width: 100%; background-color: #111111; height: 70px;}
+#wrap #header .container{width: 100%;position: relative;}
+#wrap #header .container .logo-box{width: 100%;position: absolute; left:120px; top:22px; }
+#wrap #header .container .logo-box img{width:130px; height: 25px;}
+
+#wrap #main{ width: 100%; height: 940px;}
+#wrap #main .container{width: 100%;height: 100%;}
+#wrap #main .container .main-img{
+  width: 100%; height: 100%;
+  background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../img/MAIN_KEY_VISUAL_PC_20230531.png) no-repeat 50% 50%;
+  padding: 100px 120px 200px 120px;;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: column;
+}
+#wrap #main .container .main-img .text-box{
+  width: 100%;
+}
+#wrap #main .container .main-img .text-box h1{
+  font-size: 90px;
+  font-weight: 200;
+  color: #fff;
+}
+#wrap #main .container .main-img .text-box span{display: block;
+  font-size: 20px; color: #fff;margin-top: 50px;
+}
+
+#wrap #main .container .main-img .btn-box{ width: 100%;}
+#wrap #main .container .main-img .btn-box a{
+  display:inline-block;
+  border: 1px solid #aaa;
+  width: 240px;
+  height: 50px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 12px 0;
+}
+#wrap #main .container .main-img .btn-box a:nth-child(1){
+  color: #111111;
+  background-color: #ffffff;
+}
+#wrap #main .container .main-img .btn-box a:nth-child(2){
+  color: #ffffff;
+  background-color: #111111;
+  margin-left: 35px;
+}
+

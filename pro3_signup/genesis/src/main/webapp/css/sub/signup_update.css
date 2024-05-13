@@ -1,0 +1,24 @@
+
+/* 수정 모달 창 */
+#wrap #modal {
+  width: 100%; height:100%; 
+}
+#wrap #modal .container {  width: 100%; height:100%;
+  display: flex; justify-content: center; align-items: center; }
+#wrap #modal .container .content{width: 510px; height: 800px; background-color: rgb(241, 241, 241); border: 1px solid #dbdbdb; border-radius: 2px;}
+
+#wrap #modal .container .content .form-box{width: 100%;}
+#wrap #modal .container .content .form-box ul{width: 100%;padding: 20px 40px;}
+#wrap #modal .container .content .form-box ul h3{padding: 20px 0;}
+
+#wrap #modal .container .content .form-box ul li{ width: 400px; display: flex; flex-flow: column; padding: 5px 0;}
+
+#wrap #modal .container .content .form-box ul li label{width:100%; font-size: 13px; font-weight: 600; color: #555;padding-bottom: 5px;}
+#wrap #modal .container .content .form-box ul li input{width:100%; height: 40px; padding: 0 10px; font-size: 13px; border: 1px solid #dddddd; border-radius: 2px;}
+#wrap #modal .container .content .form-box ul li input:focus{outline: none; border: none;}
+
+
+#wrap #modal .container .content .form-box  .btn-box{width: 400px; display: flex; justify-content: space-between; margin-left: 50px;}
+#wrap #modal .container .content .form-box  .btn-box button{width: 150px; height: 30px; background-color: #111; text-align: center; line-height: 3px; color: #fff; font-weight: 600; font-size: 15px; opacity: 0.8; transition: all 0.3s; border:1px solid #111; border-radius: 2px;}
+#wrap #modal .container .content .form-box  .btn-box button:nth-child(1) {width: 80px;}
+#wrap #modal .container .content .form-box  .btn-box button:hover{opacity: 1;}
